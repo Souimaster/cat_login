@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="icon" href="img/cat.png">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+<body>
+	<div class="header">
+		<div class="audio-controller">
+			<img src="img/m2.png" id="audio_headerimg"/>
+			<audio id="bgMusic" src="audio/1.mp3" type="audio/mp3"><audio>
+		</div>
+	</div>
+
+	<div class="content">
+        <div id="rainBox"></div>
+    </div>
+
+    <div class="login">
+        <div class="login_title">云购猫</div>
+        <div class="login_container">
+            <div class="login_titles">登陆界面</div>
+            <div class="login_message">
+                <div id="login_message">提示信息</div>
+            </div>
+            <div class="login_user">
+                <img src="./img/user.png">
+                <input id="user" type="text" placeholder="输入用户名">
+				<div class="border"></div>
+            </div>
+            <div class="login_pwd login_user">
+                <img src="./img/pwd.png">
+                <input id="pwd" type="password" placeholder="输入密码">
+				<div class="border"></div>
+				<img src="img/close.png" id="password_eye">
+            </div>
+            <div class="login_remenber">
+                <input id="remenber_pwd" type="checkbox" !checked> 记住密码
+			</div>
+            <div class="login_submit" onclick="login()">
+                <div>登陆</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social">
+        <ul class="social_list">
+            <li class="social_item social_item_wx">关注公众号</li>
+            <li class="social_item">全国最大的领养平台</li>
+            <img src="img/二维码.jpg" alt=""></li>
+            <li class="social_item">扫码关注微信</li>
+        </ul>
+        <!-- <button class="social_btn iconfont" value="0">&#xe688;</button> -->
+        <div class="social_btn">
+            <i class="iconfont icon-arrow-left-bold"></i>
+        </div>
+    </div>
+</body>
+<script src="./login.js"></script>
+</html>

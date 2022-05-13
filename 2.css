@@ -1,0 +1,43 @@
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    /*取消轮廓线 蓝色的*/
+    outline: none;
+}
+
+.hide,
+.none {
+    display: none;
+}
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+.clearfix {
+    *zoom: 1;
+}
+.cart-item-list {
+	overflow: auto;
+	height: 60vh;
+    background-color: rgb(0,0,0,.2);
+}
+.c-container {
+	position: absolute;
+	width: 1200px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+}
+.c-container a{
+	color: black;
+}

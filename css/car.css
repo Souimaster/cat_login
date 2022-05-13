@@ -1,0 +1,163 @@
+
+
+.cart-filter-bar {
+    font-size: 16px;
+    color: #E2231A;
+    font-weight: 700;
+}
+
+.cart-filter-bar em {
+    padding: 5px;
+    border-bottom: 1px solid #E2231A;
+}
+
+.cart-thead {
+    height: 5vh;
+    line-height: 5vh;
+    background: rgb(0,0,0,.2);
+	color: white;
+}
+
+.cart-thead>div,
+.cart-item>div {
+    float: left;
+}
+
+.t-checkbox,
+.p-checkbox {
+    width: 10%;
+	padding-left: 2%;
+}
+
+.t-goods,
+.p-goods {
+    width: 50%;
+}
+
+.t-price,
+.t-num,
+.t-sum,
+.t-action,
+.p-price,
+.p-num,
+.p-sum,
+.p-action {
+	width: 10%;
+}
+.p-action {
+    padding-left: 1.4%;
+}
+
+.cart-item {
+	display: flex;
+	align-items: center;
+    height: 20vh;
+    background: #fff;
+    overflow: hidden;
+}
+
+.check-cart-item {
+    background: #fff4e8;
+}
+/* 加减 */
+.decrement,
+.increment {
+    float: left;
+    border: 1px solid #cacbcb;
+    height: 18px;
+    line-height: 18px;
+    width: 16px;
+    text-align: center;
+    color: #666;
+    background: #fff;
+    margin-left: -1px;
+}
+
+.itxt {
+    float: left;
+    border: 1px solid #cacbcb;
+    width: 42px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+    margin-left: -1px;
+    font-size: 12px;
+    font-family: verdana;
+    color: #333;
+    -webkit-appearance: none;
+}
+
+
+
+/* 结算模块 */
+
+.cart-floatbar {
+    height: 6vh;
+    line-height: 6vh;
+    background: rgb(0,0,0,.2);
+	color: white;
+}
+.cart-floatbar a{
+	color: white;
+}
+
+.select-all {
+    float: left;
+    height: 6vh;
+    line-height: 6vh;
+    width: 10%;
+    padding-left: 2%;
+    white-space: nowrap;
+}
+
+.select-all input {
+    margin-right: .5%;
+}
+
+ .operation {
+    float: left;
+    min-width: 210px;
+    width: 50%;
+}
+
+.clear-all {
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.toolbar-right {
+    float: right;
+    width: 40%;
+}
+
+.amount-sum {
+    float: left;
+    width: 30%;
+}
+
+.amount-sum em {
+    font-weight: 700;
+    color: #E2231A;
+}
+
+.price-sum {
+    float: left;
+    width: 30%;
+}
+.btn-area {
+    width: 35%;
+    background-color: rgb(185, 67, 67);
+    float: right;
+    color: #fff;
+    font-size: 18px;
+    background: rgb(229,67,70);
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+}
+.price-sum em {
+    font-size: 16px;
+    color: #E2231A;
+}
